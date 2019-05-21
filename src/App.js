@@ -14,14 +14,10 @@ const Spinner = () => (
         cx="50"
         cy="50"
         fill="none"
-        ng-attr-stroke="{{config.color}}"
-        ng-attr-stroke-width="{{config.width}}"
-        ng-attr-r="{{config.radius}}"
-        ng-attr-stroke-dasharray="{{config.dasharray}}"
         stroke="#49d1e0"
-        stroke-width="10"
+        strokeWidth="10"
         r="35"
-        stroke-dasharray="164.93361431346415 56.97787143782138"
+        strokeDasharray="164.93361431346415 56.97787143782138"
         transform="rotate(275.845 50 50)"
       >
         <animateTransform
